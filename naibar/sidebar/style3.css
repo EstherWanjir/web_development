@@ -1,33 +1,46 @@
+a{
+
+}
 .headings{
-    background-color: aquamarine;
-    color: black;
+    background-color:rgb(14, 21, 18);
+    color: white;
     text-decoration:none;
-    width:200px;
+    width:150px;
     height:100%;
     position:fixed;
     padding-top:20px;
     padding-left: 0cm;
+    padding: 50px;
 
 }
-ul{
+nav{
+    
+}
+ .headings ul{
     list-style:none;
     padding-left: 20px;
+    text-align: center;
+    margin: 0px;
+    width: 100%;
 
 }
 li{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding:15px 20px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    font-size:20px;
 
 }
-a{
+ .headings a{
     text-decoration: none;
-    color:black;
+    color:pink;
 }
 a:hover{
     text-decoration: solid;
     color: blanchedalmond;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: blueviolet;
+    background-color: white;
 
 }
 .rounded-image{
@@ -36,3 +49,62 @@ a:hover{
     border-radius: 4cm;
     overflow-y: none;
 }
+.my_name{
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    
+}
+.introduction{
+    margin-left: 300px;
+    
+
+}
+.main_content{
+    margin-left: 50px;
+}
+.intro-text{
+    font-size: 25px;
+}
+.contact-me {
+    
+    text-align: center; 
+    color:white;
+    padding: 10px; 
+    font-size: 20px;  
+}
+.contact-me a{
+    border:1px solid black ;
+    border-radius: 5px;
+    padding: 8px;
+    text-decoration: none;
+    background-color: black;
+
+
+}
+.contact-me a:hover{
+    background-color: white;
+    color: black;
+    transition-delay: 200ms ease-in-out;
+}
+.read-more{
+    padding: 10px;
+   
+}
+.read-more a{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 15px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+.read-more a:hover{
+    background-color: white;
+    color: black;
+    transition: 200ms ease-in-out;
+
+}
+
