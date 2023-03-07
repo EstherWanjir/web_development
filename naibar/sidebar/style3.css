@@ -90,7 +90,7 @@ a:hover{
    
 }
 .read-more a{
-    color: white;
+    color: rgb(245, 244, 244);
     background-color: black;
     font-weight: bold;
     padding: 8px;
@@ -100,7 +100,7 @@ a:hover{
 }
 
 .read-more a:hover{
-    background-color: white;
+    background-color: rgb(251, 249, 249);
     color: black;
     transition: 200ms ease-in-out;
 
